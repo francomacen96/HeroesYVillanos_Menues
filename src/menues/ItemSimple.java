@@ -7,11 +7,4 @@ public abstract class ItemSimple extends ItemAbstracto{
 		super(nombre);
 	}
 	
-	// @todo Mas adelante realizara verdaderas funciones
-	/*@Override
-	public void ejecutarFuncion() {
-		System.out.println(this.funcion);
-	}*/
-	
-	
 }
