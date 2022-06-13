@@ -4,8 +4,8 @@ package menues;
 public class SubMenuReportes extends ItemSubMenu{
 	public SubMenuReportes(String nombre) {
 		super(nombre);
-		super.opciones.add(new ItemSimple("Listar combatientes que venzan a otro combatiente segun caracteristica"));
-		super.opciones.add(new ItemSimple("Listado por multiples caracteristicas"));
+		super.opciones.add(new Op1Reportes("Listar combatientes que venzan a otro combatiente segun caracteristica"));
+		super.opciones.add(new Op2Reportes("Listado por multiples caracteristicas"));
 	}
 	
 	@Override
